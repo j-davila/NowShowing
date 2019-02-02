@@ -14,6 +14,7 @@
 		BC48C5A62205387B003CF9FD /* NowShowingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC48C5A52205387B003CF9FD /* NowShowingTests.swift */; };
 		BC48C5B12205387B003CF9FD /* NowShowingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC48C5B02205387B003CF9FD /* NowShowingUITests.swift */; };
 		BC48C5BF22053A0F003CF9FD /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC48C5BE22053A0F003CF9FD /* MoviesViewController.swift */; };
+		BC48C5C1220594A7003CF9FD /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC48C5C0220594A7003CF9FD /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BC48C5B02205387B003CF9FD /* NowShowingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowShowingUITests.swift; sourceTree = "<group>"; };
 		BC48C5B22205387B003CF9FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC48C5BE22053A0F003CF9FD /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		BC48C5C0220594A7003CF9FD /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				BC48C59022053878003CF9FD /* AppDelegate.swift */,
 				BC48C59422053878003CF9FD /* Main.storyboard */,
+				BC48C5C0220594A7003CF9FD /* MovieCell.swift */,
 				BC48C5972205387A003CF9FD /* Assets.xcassets */,
 				BC48C5992205387A003CF9FD /* LaunchScreen.storyboard */,
 				BC48C59C2205387A003CF9FD /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				BC48C59122053878003CF9FD /* AppDelegate.swift in Sources */,
 				BC48C5BF22053A0F003CF9FD /* MoviesViewController.swift in Sources */,
+				BC48C5C1220594A7003CF9FD /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
