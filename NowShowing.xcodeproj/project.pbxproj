@@ -16,6 +16,7 @@
 		BC48C5B12205387B003CF9FD /* NowShowingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC48C5B02205387B003CF9FD /* NowShowingUITests.swift */; };
 		BC48C5BF22053A0F003CF9FD /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC48C5BE22053A0F003CF9FD /* MoviesViewController.swift */; };
 		BC48C5C1220594A7003CF9FD /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC48C5C0220594A7003CF9FD /* MovieCell.swift */; };
+		F1483027220D29A500464AC3 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1483026220D29A500464AC3 /* MovieDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		BC48C5BE22053A0F003CF9FD /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		BC48C5C0220594A7003CF9FD /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		E21407CC5F4E8DF8A382E813 /* Pods_NowShowing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NowShowing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1483026220D29A500464AC3 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,6 @@
 				A174FBEC0B881598FB06DF86 /* Pods-NowShowing.debug.xcconfig */,
 				A66895D3723E70DC2D0EAE72 /* Pods-NowShowing.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -126,6 +127,7 @@
 			children = (
 				BC48C59022053878003CF9FD /* AppDelegate.swift */,
 				BC48C59422053878003CF9FD /* Main.storyboard */,
+				F1483026220D29A500464AC3 /* MovieDetailsViewController.swift */,
 				BC48C5C0220594A7003CF9FD /* MovieCell.swift */,
 				BC48C5972205387A003CF9FD /* Assets.xcassets */,
 				BC48C5992205387A003CF9FD /* LaunchScreen.storyboard */,
@@ -335,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1483027220D29A500464AC3 /* MovieDetailsViewController.swift in Sources */,
 				BC48C59122053878003CF9FD /* AppDelegate.swift in Sources */,
 				BC48C5BF22053A0F003CF9FD /* MoviesViewController.swift in Sources */,
 				BC48C5C1220594A7003CF9FD /* MovieCell.swift in Sources */,
@@ -514,6 +517,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F35KBLT72;
 				INFOPLIST_FILE = NowShowing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -532,6 +536,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F35KBLT72;
 				INFOPLIST_FILE = NowShowing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
