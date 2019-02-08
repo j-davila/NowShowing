@@ -12,7 +12,7 @@ Movie Browser using Now Playing API [The Movie Database API](http://docs.themovi
 
 #### BONUS
 - [x] (2pt) User can view the app on various device sizes and orientations.
-- [x] (1pt) Run your app on a real device.
+- [ ] (1pt) Run your app on a real device.
 
 ### App Walkthough GIF
 <img src="http://g.recordit.co/Uodde0lqOk.gif" width=250><br>
