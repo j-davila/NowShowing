@@ -11,11 +11,11 @@ Movie Browser using Now Playing API [The Movie Database API](http://docs.themovi
 - [x] (3pts) User can view the movie poster image for each movie.
 
 #### BONUS
-- [ ] (2pt) User can view the app on various device sizes and orientations.
-- [ ] (1pt) Run your app on a real device.
+- [x] (2pt) User can view the app on various device sizes and orientations.
+- [x] (1pt) Run your app on a real device.
 
 ### App Walkthough GIF
-<img src="https://i.imgur.com/Q2g7vrX.gif" width=250><br>
+<img src="http://g.recordit.co/Uodde0lqOk.gif" width=250><br>
 
 ### Notes
 Challenges I encountered:
