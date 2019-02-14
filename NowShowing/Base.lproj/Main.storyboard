@@ -18,9 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="160" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3tY-lf-bbt">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="160" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3tY-lf-bbt">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="160" id="j0g-M4-yW8" customClass="MovieCell" customModule="NowShowing" customModuleProvider="target">
@@ -35,8 +34,8 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSI-di-19c">
-                                                    <rect key="frame" x="123" y="47" width="244" height="102"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <rect key="frame" x="123" y="46" width="244" height="102"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -61,6 +60,16 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3tY-lf-bbt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="71R-E8-cKh"/>
+                            <constraint firstItem="3tY-lf-bbt" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="7dR-PI-M3H"/>
+                            <constraint firstItem="3tY-lf-bbt" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="9cu-fD-VOy"/>
+                            <constraint firstItem="3tY-lf-bbt" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Dua-Xh-ySa"/>
+                            <constraint firstItem="3tY-lf-bbt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="NgI-MI-phP"/>
+                            <constraint firstItem="3tY-lf-bbt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="g7T-H0-pWb"/>
+                            <constraint firstItem="3tY-lf-bbt" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="tn6-NH-n3W"/>
+                            <constraint firstItem="3tY-lf-bbt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xfw-TY-dhr"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Movies" id="8eT-c4-Ibz"/>
